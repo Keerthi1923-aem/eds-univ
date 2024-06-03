@@ -37,7 +37,7 @@
     ]
   },
   {
-    "id": "section",
+    "id": "quote",
     "components": [
       "text",
       "image",
