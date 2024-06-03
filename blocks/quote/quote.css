@@ -1,0 +1,31 @@
+.quote > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+  grid-gap: 16px;
+}
+
+.quote > ul > li {
+  border: 1px solid var(--dark-color);
+  background-color: var(--bg-color);
+}
+
+.quote .quote-quote-body {
+  margin: 16px;
+}
+
+.quote .quote-quote-image {
+  line-height: 0;
+}
+
+.quote .quote-quote-body > *:first-child {
+  margin-top: 0;
+}
+
+.quote > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
