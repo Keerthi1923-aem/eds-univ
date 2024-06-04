@@ -152,7 +152,7 @@
         "name": "href",
         "value": "",
         "label": "Link of the card"
-      }
+      },
       {
         "component": "text",
         "valueType": "string",
