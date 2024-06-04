@@ -29,3 +29,11 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards > ul > li a {
+  font-family: var(--body-font-family);
+  display: none;
+  font-size: small;
+  color: var(--background-color);
+  background-color: var(--bg-color);
+}
