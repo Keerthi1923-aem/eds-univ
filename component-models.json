@@ -145,6 +145,13 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "href",
+        "value": "",
+        "label": "Link of the card"
       }
     ]
   },
