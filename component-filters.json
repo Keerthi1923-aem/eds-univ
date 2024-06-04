@@ -19,6 +19,12 @@
     ]
   },
   {
+    "id": "cards",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "section",
     "components": [
       "text",
@@ -29,12 +35,6 @@
       "cards",
       "columns",
       "quote"
-    ]
-  },
-  {
-    "id": "cards",
-    "components": [
-      "card"
     ]
   }
 ]
