@@ -190,18 +190,25 @@
     "id": "quote",
     "fields": [
       {
-        "component": "text-area",
-        "name": "quote",
-        "value": "This is Quote",
-        "label": "Quote",
-        "valueType": "string"
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
       },
       {
-        "component": "text-input",
+        "component": "text",
         "valueType": "string",
-        "name": "author",
-        "label": "Author",
-        "value": "Keerthana"
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }
